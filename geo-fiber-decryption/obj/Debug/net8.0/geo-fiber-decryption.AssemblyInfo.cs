@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("geo-fiber-decryption")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0a020c482aced72885cb34c401a785304561fbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fa1869ab3984586f24b25f45fef7238f24d8189")]
 [assembly: System.Reflection.AssemblyProductAttribute("geo-fiber-decryption")]
 [assembly: System.Reflection.AssemblyTitleAttribute("geo-fiber-decryption")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
