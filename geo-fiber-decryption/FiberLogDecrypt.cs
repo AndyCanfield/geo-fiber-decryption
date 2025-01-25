@@ -13,6 +13,7 @@ public class FiberLogDecrypt
         var delimiterByteArray = Encoding.UTF8.GetBytes(delimString);
         var delimSize = delimiterByteArray.Length;
 
+        /*
         //Encrypt
         using (var fileStream = File.OpenRead(args[0]))
         {
@@ -29,15 +30,15 @@ public class FiberLogDecrypt
                     }
                 }
             }
-        }
+        }*/
 
         //Decrypt
-        using (var fileStream = File.OpenRead(args[1]))
+        using (var fileStream = File.OpenRead(args[0]))
         {
             int numBytesToRead = (int)fileStream.Length;
             //int numBytesRead = 0;
             var currentBytes = new List<byte>();
-            using (var streamWriter = new StreamWriter(args[2]))
+            using (var streamWriter = new StreamWriter(args[1]))
             {
                 while (numBytesToRead > 0)
                 {

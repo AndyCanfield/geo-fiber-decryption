@@ -24,3 +24,5 @@ geo-fiber-decryption/obj/Debug/net8.0/geo-fiber-decryption.GeneratedMSBuildEdito
 *.props
 
 *.targets
+
+*.v2
